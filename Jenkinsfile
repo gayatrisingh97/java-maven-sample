@@ -5,19 +5,19 @@ pipeline {
         jdk "java_demo"
     }
     stages{
-        stage ("maven Build"){
+        stage ("maven compile"){
             steps{
-                sh "maven build"
+                sh "mvn compile"
             }
         }
         stage ("maven Test"){
             steps{
-                sh "maven test"
+                sh "mvn test"
             }
         }
         stage ("maven package"){
             steps{
-                sh "maven package"
+                sh "mvn package"
             }
         }
         stage ("docker tag"){
