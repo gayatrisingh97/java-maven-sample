@@ -1,0 +1,16 @@
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/controller/DBController.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/controller/FoobarController.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/controller/IndexController.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/service/FoobarService.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/dao/DBInfoDao.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/dao/DBInfoDaoImpl.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/vo/RestResponse.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/controller/ProxyController.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/util/DBConnPool.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/vo/GreetingReqVO.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/vo/ProxyReqVO.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/SpringBootDemoApplication.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/service/ProxyService.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/vo/DBConnInfoRespVO.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/config/AppConfig.java
+/home/ubuntu/java-maven-demo/src/main/java/com/goodrain/springbootdemo/service/DBInfoService.java

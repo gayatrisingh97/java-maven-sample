@@ -1,0 +1,16 @@
+com/goodrain/springbootdemo/vo/ProxyReqVO.class
+com/goodrain/springbootdemo/vo/DBConnInfoRespVO.class
+com/goodrain/springbootdemo/service/FoobarService.class
+com/goodrain/springbootdemo/SpringBootDemoApplication.class
+com/goodrain/springbootdemo/vo/RestResponse.class
+com/goodrain/springbootdemo/config/AppConfig.class
+com/goodrain/springbootdemo/vo/GreetingReqVO.class
+com/goodrain/springbootdemo/controller/DBController.class
+com/goodrain/springbootdemo/dao/DBInfoDaoImpl.class
+com/goodrain/springbootdemo/util/DBConnPool.class
+com/goodrain/springbootdemo/controller/ProxyController.class
+com/goodrain/springbootdemo/controller/IndexController.class
+com/goodrain/springbootdemo/controller/FoobarController.class
+com/goodrain/springbootdemo/service/DBInfoService.class
+com/goodrain/springbootdemo/service/ProxyService.class
+com/goodrain/springbootdemo/dao/DBInfoDao.class
