@@ -20,14 +20,14 @@ pipeline {
                 sh "mvn package"
             }
         }
-        stage ("docker tag"){
+        stage ("docker build"){
             steps{
-                sh ""
+                sh "docker build -t maven_app:1.0 ."
             }
         }
         stage ("docker run"){
             steps{
-                sh "docker run "
+                sh "docker run maven_app:1.0 "
             }
         }
     }
