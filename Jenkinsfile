@@ -30,3 +30,6 @@ pipeline {
                 sh " docker push gayatrisingh31/mavendemo_app:1.1"
         }
     }
+    }
+}
+    
