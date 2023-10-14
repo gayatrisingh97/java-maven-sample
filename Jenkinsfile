@@ -22,14 +22,8 @@ pipeline {
         }
         stage ("docker build"){
             steps{
-                sh "docker build -t maven_app:1.0 ."
+                sh "docker build -t mavenDemo_app:1.0 ."
             }
         }
-        stage ("docker run"){
-            steps{
-                sh "docker run maven_app:1.0 "
-            }
         }
     }
-    
-}
