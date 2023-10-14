@@ -31,7 +31,7 @@ pipeline {
         }
     }
         stage (" docker push"){
-            steps{
+            withdockerregistry([ credentialsid: "gayatrisingh31", url: "https://hub.docker.com/repository/docker/gayatrisingh31" ]){
                 sh "docker push gayatrisingh31/mavendemo_app:1.0"
     }
 }
