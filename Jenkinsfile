@@ -25,5 +25,8 @@ pipeline {
                 sh "docker build -t mavendemo_app:1.0 ."
             }
         }
+        stage ("docker push"){
+            steps{
+                sh " docker push"
         }
     }
