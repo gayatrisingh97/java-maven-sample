@@ -22,7 +22,7 @@ pipeline {
         }
         stage ("docker build"){
             steps{
-                sh "docker build -t mavendemo_app:1.0"
+                sh "docker build -t mavendemo_app:1.0 ."
             }
         }
         }
