@@ -27,7 +27,7 @@ pipeline {
         }
         stage ("docker push"){
             steps{
-                sh " docker push gayatrisingh31/mavendemo_app:1.1"
+                sh " docker push gayatrisingh31/mavendemo_app:1.0"
         }
     }
     }
