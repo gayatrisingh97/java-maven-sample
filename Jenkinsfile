@@ -25,11 +25,16 @@ pipeline {
                 sh "docker build -t mavendemo_app:1.0 ."
             }
         }
-        stage ("docker push"){
+        stage ("docker tag"){
             steps{
-                sh " docker push gayatrisingh31/mavendemo_app:1.0"
+                sh " docker tag mavendemo_app:1.0 gayatrisingh31/mavendemo_app:1.0"
         }
     }
+        stage (" docker push"){
+            steps{
+                sh "docker push gayatrisingh31/mavendemo_app:1.0"
+    }
+}
     }
 }
     
